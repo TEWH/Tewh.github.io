@@ -1,0 +1,105 @@
+# Metadata
+baseURL = "https://ut-tewh.github.io"
+languageCode = "en-us"
+title = "TEWH"
+theme = "navigator-hugo"
+summaryLength = 10
+
+publishDir = "docs" # Tells hugo where to put the built site
+pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
+
+
+# Site Variables
+[params]
+logo = "" # Logo in top left corner
+
+# Site Meta Data
+title = "UT ECLAIR" # Site Title
+author = "Conrad Li" # Site Creator
+description = "Texas World Health Engineering"
+languageCode = "en-us" # Language
+dateFormat = "January 2, 2006" # How to format dates
+home = "Home" # Name of navigation item that targets the homepage
+menufixed = false
+
+# Footer Social Media Variables
+socialMediaTitle = "Follow Us"
+githubLink = "" # Github Link
+githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
+# Footer Email Variables
+emailTitle = "Contact Us"
+emailAddress = "email"
+
+# Cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Heading"
+description = ""
+button  = true
+btnText = "View Our Current Projects"
+btnURL  = "projects"
+eclairLogo = ""
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "Geared toward helping students pursue their passion for robotics"
+description = "About 2 Description"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = false
+#topTitle= "DROP US A NOTE"
+#title   = "Contact Us."
+#subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+#address = "14/05, Stockhome <br> Victori Palace , United States"
+#phone   = "(03) 9283 2617"
+#fax     = "+61 3827 3590"
+#facebook= "https://www.facebook.com/"
+#twitter = "https://twitter.com/"
+#linkedin= "https://www.linkedin.com/"
+#instagram= "https://www.instagram.com/"
+
+# Site Menus
+[menu]
+
+# Navbar Menus
+[[menu.nav]]
+name    = "Projects"
+url     = "projects"
+weight  = 2
+
+[[menu.nav]]
+name    = "Members"
+url     = "members"
+weight  = 3
+
+
+[[menu.nav]]
+name    = "Sponsors"
+url     = "sponsors"
+weight  = 4
+
+# TODO: Maybe do more extensive about us page later?
+#[[menu.nav]]
+#name    = "About" # Name of navigation item
+#url     = "about" # URL suffix leading to the target page (all webpage names can be vie)
+#weight  = 2 # The ordering of the navigation item  (lower means earlier ordering)
+
+# TODO: Maybe do
+#[[menu.nav]]
+#name    = "Blog"
+#url     = "blog"
+#weight  = 5

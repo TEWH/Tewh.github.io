@@ -1,0 +1,13 @@
+enable  : true
+topTitle: ""
+title   : Our Projects
+subtitle: 2020-2021
+
+filtermenu :
+  - name      : Fall 2021
+    category  : fall2021
+
+item   :
+  # - title : Project Title 1
+  #   image : Project image url
+  #   category  : fall2021

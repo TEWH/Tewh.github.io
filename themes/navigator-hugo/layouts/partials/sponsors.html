@@ -1,0 +1,48 @@
+{{ $data := index .Site.Data }}
+{{ with $data.sponsors }}
+    {{ if .enable }}
+    {{ "<!-- Client Section Start -->" | safeHTML }}
+    <section class="sponsor section-sm-none bg-gray">
+        <div class="container">
+            <div class="row bg-gray">
+                <!--Sponsor Image-->
+                <div class="col-md-6 text-center">
+                    {{ with .image }}<img class="img-fluid bg-transparent rounded" src="{{ . | absURL }}" alt="service-image" width=50%>{{ end }}
+                </div>
+                <!--Title and Description-->
+                <div class="title col-md-6 text-center">
+                    {{ with .title }}<h2>{{.}}</h2>{{ end }}
+                    <span class="border"></span>
+                    {{ with .description }}<p>{{.}}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="padding-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!--Contact Email-->
+                <div class="col-md-12 my-auto">
+                    <div class="text-center p-4">
+                        {{ with .emailIcon }}<img class="bg-transparent" src="{{ . | absURL }}" alt="service-image" width=20%>{{ end }}
+                    </div>
+                    <div class="text-center">
+                        <h2>Example Email</h2>
+                    </div>
+                </div>
+            </div>
+            <!--Sponsors-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="clients-slider" class="sponsors-logo-slider">
+                        {{ range .clientLogo }}
+                        <img src="{{ .image | absURL }}" alt="client-logo">
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ "<!-- Client Section End -->" | safeHTML }}
+    {{ end }}
+{{ end }}

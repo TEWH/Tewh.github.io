@@ -1,0 +1,41 @@
+enable  : true
+topTitle: ""
+title   : Officers
+subtitle: ""
+
+member  :
+  - image         : ""
+    name          : Name 1
+    designation   : Officer Title 1
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : ""
+    name          : Name 2
+    designation   : Officer Title 2
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : ""
+    name          : Name 3
+    designation   : Officer Title 3
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : ""
+    name          : Name 4
+    designation   : Officer Title 4
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
