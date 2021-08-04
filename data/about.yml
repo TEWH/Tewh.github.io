@@ -2,10 +2,10 @@ enable  : true
 item    :
   - positionRight : false
     image : ""
-    title : About Title 1
-    description : Description
+    title : TEXT CAN GO HERE
+    description : TEXT CAN GO HERE
 
   - positionRight : true
     image : ""
-    title : About Title 2
-    description: Description
+    title : TEXT CAN GO HERE
+    description: TEXT CAN GO HERE

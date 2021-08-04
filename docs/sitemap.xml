@@ -8,12 +8,17 @@
   </url>
   
   <url>
+    <loc>https://ut-tewh.github.io/calendar/</loc>
+    <lastmod>2021-06-07T12:37:52+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ut-tewh.github.io/members/</loc>
     <lastmod>2021-06-07T12:37:52+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ut-tewh.github.io/sponsors/</loc>
+    <loc>https://ut-tewh.github.io/officers/</loc>
     <lastmod>2021-06-07T12:37:52+06:00</lastmod>
   </url>
   
@@ -74,6 +79,11 @@
   
   <url>
     <loc>https://ut-tewh.github.io/projects/</loc>
+    <lastmod>2018-07-07T15:45:06+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ut-tewh.github.io/teams/</loc>
     <lastmod>2018-07-07T15:45:06+06:00</lastmod>
   </url>
   

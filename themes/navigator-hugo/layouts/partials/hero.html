@@ -3,28 +3,22 @@
 <section class="hero-area">
     <div class="container">
         <div class="row">
-            <!--Logo in hero section-->
-            <div class="col-md-6">
-                <img class="img-fluid rounded" src="{{ with .Site.Params.hero.eclairLogo }}{{.| absURL }}{{ end }}" alt="logo">
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <!--Define heading and description in hero-->
-                <div class="block">
+                <div class="block text-center">
                     {{ with .Site.Params.hero.heading }}
                         <h2>{{ . }}</h2>
                     {{ end }}
                     {{ with .Site.Params.hero.description }}
                         <p>{{ . }}</p>
                     {{ end }}
-                    <!--Cool looking red button that goes to about me-->
-                    {{ if .Site.Params.hero.button }}
-                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
-                            <li class="list-inline-item">
-                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
-                            </li>
-                        </ul>
-                    {{ end }}
                 </div>
+            </div>
+        </div>
+        <!--Logo in hero section-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-fluid rounded" src="{{ with .Site.Params.hero.tewhLogo }}{{.| absURL }}{{ end }}" alt="logo">     
             </div>
         </div>
     </div>

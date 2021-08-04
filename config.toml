@@ -38,18 +38,15 @@ expire_days = 2
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
-heading = "Heading"
-description = ""
-button  = true
-btnText = "View Our Current Projects"
-btnURL  = "projects"
-eclairLogo = ""
+heading = "Texas World Health Engineering"
+description = "TEXT CAN GO HERE"
+tewhLogo = ""
 
 # About 2 Section
 [Languages.en.params.aboutSm]
 enable  = true
-title   = "Geared toward helping students pursue their passion for robotics"
-description = "About 2 Description"
+title   = "TEXT CAN GO HERE"
+description = "TEXT CAN GO HERE"
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
