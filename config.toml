@@ -77,20 +77,35 @@ enable  = false
 
 # Navbar Menus
 [[menu.nav]]
+name    = "Officers"
+url     = "officers"
+weight  = 4
+
+[[menu.nav]]
 name    = "Projects"
 url     = "projects"
-weight  = 2
+weight  = 1
 
 [[menu.nav]]
-name    = "Members"
-url     = "members"
-weight  = 3
-
+name = "Teams"
+url = "teams"
+weight = 2
 
 [[menu.nav]]
-name    = "Sponsors"
-url     = "sponsors"
-weight  = 4
+name = "Calendar"
+url = "calendar"
+weight = 3
+
+[[menu.nav]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+# TODO: Member Resources page
+# [[menu.nav]]
+# name    = "Members"
+# url     = "members"
+# weight  = 3
 
 # TODO: Maybe do more extensive about us page later?
 #[[menu.nav]]
