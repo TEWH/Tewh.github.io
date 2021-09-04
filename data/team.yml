@@ -1,10 +1,10 @@
 enable  : true
 topTitle: ""
-title   : Officers
+title   : Meet our Officers!
 subtitle: ""
 
 member  :
-  - image         : ""
+  - image         : "images/team/alaukik.jpg"
     name          : Alaukik
     designation   : President
     description   : ""
@@ -15,7 +15,7 @@ member  :
 
   - image         : "images/team/nethra.jpg"
     name          : Nethra
-    designation   : 1st Vice President
+    designation   : VP Internal
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
@@ -24,7 +24,7 @@ member  :
 
   - image         : "images/team/sruja.jpg"
     name          : Sruja 
-    designation   : 2nd Vice President
+    designation   : VP External
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
@@ -33,7 +33,7 @@ member  :
 
   - image         : "images/team/aditi.jpg"
     name          : Aditi
-    designation   : Corporate Officer
+    designation   : Corporate Relations Officer
     description   : ""
     facebookURL   : ""
     twitterURL    : ""

@@ -594,6 +594,10 @@ Backgrounds
 .navbar-brand h1 {
   margin: 0;
 }
+
+.navbar-brand img {
+  height: 85px;
+}
 /*======================
   Hero Style
   ========================*/
@@ -631,13 +635,14 @@ Backgrounds
 }
 
 .hero-area .block h2 {
-  font-size: 48px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
 .hero-area .block p {
   color: #707d8f;
   margin-bottom: 20px;
+  font-size: 22px;
 }
 
 .hero-area .block .list-inline {
@@ -654,6 +659,10 @@ Backgrounds
   width: 100%;
   position: absolute;
   z-index: -1;
+}
+
+.hero-area img {
+  width: 350px;
 }
 
 /*=================================================================
