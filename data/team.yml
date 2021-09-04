@@ -5,35 +5,71 @@ subtitle: ""
 
 member  :
   - image         : ""
-    name          : Name 1
-    designation   : Officer Title 1
+    name          : Alaukik
+    designation   : President
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : ""
-    name          : Name 2
-    designation   : Officer Title 2
+  - image         : "images/team/nethra.jpg"
+    name          : Nethra
+    designation   : 1st Vice President
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : ""
-    name          : Name 3
-    designation   : Officer Title 3
+  - image         : "images/team/sruja.jpg"
+    name          : Sruja 
+    designation   : 2nd Vice President
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : ""
-    name          : Name 4
-    designation   : Officer Title 4
+  - image         : "images/team/aditi.jpg"
+    name          : Aditi
+    designation   : Corporate Officer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/conrad.jpeg"
+    name          : Conrad
+    designation   : Public Relations officer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : "images/team/matthew.jpg"
+    name          : Matthew
+    designation   : Treasurer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/jennifer.jpg"
+    name          : Jennifer
+    designation   : Fundraising Coordinator
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/maanas.png"
+    name          : Maanas
+    designation   : Secretary
     description   : ""
     facebookURL   : ""
     twitterURL    : ""

@@ -8,13 +8,12 @@ summaryLength = 10
 publishDir = "docs" # Tells hugo where to put the built site
 pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 
-
 # Site Variables
 [params]
-logo = "" # Logo in top left corner
+logo = "images/logos/minimal-logo.png" # Logo in top left corner
 
 # Site Meta Data
-title = "UT ECLAIR" # Site Title
+title = "TEWH" # Site Title
 author = "Conrad Li" # Site Creator
 description = "Texas World Health Engineering"
 languageCode = "en-us" # Language
@@ -24,11 +23,11 @@ menufixed = false
 
 # Footer Social Media Variables
 socialMediaTitle = "Follow Us"
-githubLink = "" # Github Link
+githubLink = "https://github.com/TEWH" # Github Link
 githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
 # Footer Email Variables
 emailTitle = "Contact Us"
-emailAddress = "email"
+emailAddress = "austin.tewh@gmail.com"
 
 # Cookies
 [params.cookies]
@@ -39,14 +38,14 @@ expire_days = 2
 [Languages.en.params.hero]
 enable  = true
 heading = "Texas World Health Engineering"
-description = "TEXT CAN GO HERE"
-tewhLogo = ""
+description = "Driving biomedical innovation for the developing world"
+tewhLogo = "images/logos/logo.png"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
 enable  = true
-title   = "TEXT CAN GO HERE"
-description = "TEXT CAN GO HERE"
+title = "Creating medical devices for the developing world"
+description = "Texas Engineering World Health aims to bring awareness and possible solutions to healthcare inequalities in low income areas around the developing world. Each year we challenge our members to design and manufacture devices that can improve the healthcare gap found in the developing world."
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
