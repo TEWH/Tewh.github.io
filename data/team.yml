@@ -7,7 +7,7 @@ member  :
   - image         : "images/team/alaukik.jpg"
     name          : Alaukik
     designation   : President
-    description   : "Alaukik is the best"
+    description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
@@ -42,7 +42,7 @@ member  :
   
   - image         : "images/team/conrad.jpeg"
     name          : Conrad
-    designation   : Public Relations officer
+    designation   : Public Relations Officer
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
