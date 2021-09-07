@@ -1,13 +1,13 @@
 enable  : true
 topTitle: ""
-title   : Meet our Officers!
+title   : Meet the Officers!
 subtitle: ""
 
 member  :
   - image         : "images/team/alaukik.jpg"
     name          : Alaukik
     designation   : President
-    description   : ""
+    description   : "Alaukik is the best"
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""

@@ -10,12 +10,12 @@ pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 
 # Site Variables
 [params]
-logo = "images/logos/minimal-logo.png" # Logo in top left corner
+logo = "images/logos/logo2.png" # Logo in top left corner
 
 # Site Meta Data
 title = "TEWH" # Site Title
 author = "Conrad Li" # Site Creator
-description = "Texas World Health Engineering"
+description = "Texas Engineering World Health"
 languageCode = "en-us" # Language
 dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
@@ -37,7 +37,7 @@ expire_days = 2
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
-heading = "Texas World Health Engineering"
+heading = "Texas Engineering World Health"
 description = "Creating innovative low-cost medical devices for the developing world."
 tewhLogo = "images/logos/logo.png"
 

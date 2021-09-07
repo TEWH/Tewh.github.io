@@ -492,7 +492,7 @@ Backgrounds
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #022d83;
 }
 
 .top-bar {
@@ -511,8 +511,8 @@ Backgrounds
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
-  font-size: 15px;
+  color: #fff;
+  font-size: 22px;
   line-height: 26px;
   padding: 20px 15px !important;
   transition: .2s ease-in-out 0s;
@@ -532,7 +532,7 @@ Backgrounds
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #ff77ff;
+  color: #ff6600;
 }
 
 .navigation .navbar-toggler {
@@ -596,14 +596,14 @@ Backgrounds
 }
 
 .navbar-brand img {
-  height: 85px;
+  height: 120px;
 }
 /*======================
   Hero Style
   ========================*/
 
 .hero-area {
-  padding: 150px 0;
+  padding: 70px 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -614,7 +614,7 @@ Backgrounds
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  background: #002060;
 }
 
 @media (max-width: 480px) {
@@ -624,7 +624,7 @@ Backgrounds
 }
 
 .hero-area .block {
-  color: #fff;
+  color: #ff6600;
   padding-left: 30px;
 }
 
@@ -640,7 +640,7 @@ Backgrounds
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: #ff6600;
   margin-bottom: 20px;
   font-size: 22px;
 }
@@ -662,7 +662,7 @@ Backgrounds
 }
 
 .hero-area img {
-  width: 350px;
+  width: 400px;
 }
 
 /*=================================================================

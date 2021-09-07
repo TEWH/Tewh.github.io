@@ -8,6 +8,6 @@ filtermenu :
     category  : fall2021
 
 item   :
-  # - title : Project Title 1
-  #   image : Project image url
-  #   category  : fall2021
+  - title : Project Title 1
+    image : images/logos/logo.png
+    category  : fall2021
