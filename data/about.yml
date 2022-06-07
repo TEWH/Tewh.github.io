@@ -1,0 +1,11 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : "images/about/patientMonitor.jpg"
+    title : Creating medical devices for the developing world
+    description : Texas Engineering World Health aims to bring awareness and possible solutions to healthcare inequalities in low income areas around the developing world. Each year we challenge our members to design and manufacture devices that can improve the healthcare gap found in the developing world.
+
+  - positionRight : true
+    image : "images/about/volunteer.png"
+    title : Promoting K-12 engineering education
+    description: We believe that educating a diverse generation of future engineers is essential. Each year TEWH along with other UT Austin engineering club organize events to foster high school and middle school student's interest in engineering and teach them core engineering skills.

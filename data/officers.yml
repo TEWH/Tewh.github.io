@@ -1,0 +1,77 @@
+enable  : true
+topTitle: ""
+title   : Meet the Officers!
+subtitle: ""
+
+member  :
+  - image         : "images/team/nethra.jpg"
+    name          : Nethra
+    designation   : President
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : "images/team/aditi.jpg"
+    name          : Aditi
+    designation   : VP Internal
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : "images/team/jennifer.jpg"
+    name          : Jennifer
+    designation   : VP External
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : "images/team/maansi.jpg"
+    name          : Maansi
+    designation   : Corporate Relations Officer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/conrad.jpeg"
+    name          : Conrad
+    designation   : Public Relations Officer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : "images/team/matthew.jpg"
+    name          : Matthew
+    designation   : Treasurer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/lizzy.jpg"
+    name          : Lizzy
+    designation   : Fundraising Coordinator
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : "images/team/maanas.png"
+    name          : Maanas
+    designation   : Secretary
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""

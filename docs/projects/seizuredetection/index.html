@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Seizure Detection Project">
+ <meta name="author" content="Conrad Li">
+<meta name="generator" content="Hugo 0.68.3" />
+
+<title>Seizure Detection</title>
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://tewh.github.io/images/favicon.ico" />
+
+<!-- Stylesheets -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="https://tewh.github.io/plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="https://tewh.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="https://tewh.github.io/plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://tewh.github.io/plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="https://tewh.github.io/plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
+
+
+<link rel="stylesheet" href="https://tewh.github.io/css/style.min.css" media="screen">
+
+</head>
+<body id="body">
+        <!-- Start Preloader -->
+<div id="preloader">
+    <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+</div>
+<!-- End Preloader --><!-- Fixed Navigation -->
+
+<section class="header navigation">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    
+                    <a class="navbar-brand" href="https://tewh.github.io/">
+                        <img src="https://tewh.github.io/images/logos/logo2.png" alt="TEWH" height=50px>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://tewh.github.io/">Home</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://tewh.github.io/projects">Projects</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://tewh.github.io/officers">Officers</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://tewh.github.io/contact">Contact</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section><div id="content">
+
+<section class="blog-single section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <img src="https://tewh.github.io/images/projects/SeizureDetection/summary.png" class="w-75 mb-3" alt="Post-Image">
+                <h2>Seizure Detection</h2>
+                <div class="post-meta mb-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span>By</span>
+                            Conrad Li
+                        </li>
+                        <li class="list-inline-item">
+                            <span>at</span>
+                            <span>May 8, 2021</span>
+                        </li>
+                    </ul>
+                </div>
+                <h1 id="problem-statement">Problem Statement</h1>
+<p>Epilepsy is a chronic and severe neurological disease that affects 65 million people worldwide. Although idiopathic in many cases, epileptic seizures may be caused by previous trauma to the brain such as hypoxia during labor, head injury, and/or bacterial meningitis. Beyond physiological symptoms caused by excessive neuronal activity in the brain, epilepsy is frequently the subject of social stigma, with patients often suffering from discrimination, misunderstanding, and ostracization from wider society due to the loss of self-reliance and autonomy. Although many cases can successfully be treated, treatment is often too inaccessible or expensive for patients, preventing them from treating the disease as well as mitigating its symptoms.</p>
+<p>To address the treatment gap for epileptic seizures in developing low and middle-income nations, we propose a simple and efficient seizure prediction system consisting of a neural network and an associated low-cost wearable alarm system. The integral comfort and safety features associated with this system would greatly reduce the mortality rate from SUDEP and general injury. By working towards this goal, we intend to allow patients to not only receive any possible urgent biomedical treatment in advance of the seizure, but also mitigate any potential injury from a sudden fall by simply laying prone.</p>
+<h1 id="implementation">Implementation</h1>
+<h2 id="eeg-headset">EEG Headset</h2>
+<p>The electrodes necessary for EEG collection were procured from OpenBCI, a non-profit organization that seeks to lower the cost of EEG and other brain wave collection technologies. The electrodes (Figure 1) are encased in a plastic holding, where an elastic spring pushes the electrode into the user’s scalp. This design ensures that sufficient surface contact between the electrode and skin is maintained. Sixteen such electrodes are arranged on the helmet following the 10-20 brain EEG system.</p>
+<p><img src="/images/projects/SeizureDetection/cap.jpg" alt="cap"></p>
+<h2 id="alarm-system">Alarm System</h2>
+<p>The alarm system consists of an LED, a piezo speaker, an SSD1306 OLED graphic display, and a button-press switch. As shown in the figure below, the circuit is wired to a Raspberry Pi 4, which is also loaded with the machine learning model architecture used for this project. The software that activates the circuit is integrated with the machine learning algorithm within the Raspberry Pi. Once the model detects a seizure from the preictal data streamed from the Cyton microcontroller of the EEG to the Raspberry Pi, the LED and buzzer begin to produce an auditory and visual signal to the user that there could be an onset of a seizure, and the OLED display outputs a warning message as well as the timestamp of when the seizure was detected as seen in the figure below. The date and time at which a seizure is detected by the system is also stored in a .txt file for future reference. The button press switch is attached to the circuit for user convenience, and can be used to turn off the sound or blinking LED. For notification purposes, the timestamp and date from the last seizure warning will still be in display as “last detected” so that users are still aware of their seizure warning and can take the necessary precautions in time. The alarm system is miniature in size and therefore provides a higher level of portability and comfort. The alarm system will be attached to the Raspberry Pi in a compact case and can be worn around the arm or wrist.</p>
+<p><img src="/images/projects/SeizureDetection/alarm.png" alt="alarm"></p>
+<h2 id="neural-network-architecture">Neural Network Architecture</h2>
+<p>The overall architecture of our model is outlined in the figure below. First a deep convolutional autoencoder (DCAE) was implemented and trained in an unsupervised manner on unlabeled, raw 5 second EEG signals. A deep convolutional autoencoder consists of an encoder that compresses input data into a low-dimensional representation and a decoder that reconstructs data back to its original dimensions. We chose this architecture as a method of feature extraction, as encoded EEG signals would serve as feature vectors that are more easily learned by the classification algorithm.</p>
+<p>Our encoder consists of convolutional layers with batch normalization, reLU activation, and max pooling layers which reduce the input EEG segments of 1280 time points x 23 channels to a low dimensional representation or encoded product of shape 160 x 184. The decoder then reconstructs the input signal through deconvolutional and upsampling layers. The DCAE is trained using the input signal and mean square error loss function which measures the loss associated with the reconstruction of the input signal. The Adam optimizer with a learning rate of .01 is used to minimize this loss function. After training and optimization, optimized parameters are used on a pretrained model consisting only of the encoder layers, which compresses the raw EEG signal epochs into low dimensional feature vectors, which serve as inputs for the classification model. The classification task is done using a bi-directional long short term memory (bi-LSTM) recurrent neural network. The Adam optimizer with a learning rate of .0002 and the binary cross entropy loss function were used. Additionally, in order to reduce overfitting, we implemented residual or skip connections within the bi-LSTM units.</p>
+<p><img src="/images/projects/SeizureDetection/architecture.png" alt="app"></p>
+<p>After training, our model was able to achieve a validation accuracy of 96.59%, a validation precision of 97.72%, and a validation sensitivity of 97.72%.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </div><!-- Footer Start -->
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Follow Us</h3>
+                    <a href=https://www.instagram.com/texasewh/?hl&#61;en target="_blank">
+                        <img src=https://tewh.github.io/images/social_icons/insta_icon.png>
+                    </a>
+                    <a href=https://github.com/TEWH target="_blank">
+                        <img src=https://tewh.github.io/images/social_icons/GitHub-Mark-Light-32px.png>
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Join Us</h3>
+                    <a href=https://discord.gg/7Eq2NFxhaH target="_blank">
+                        <img src=https://tewh.github.io/images/social_icons/Discord-Logo-White.png width=32px>
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Contact Us</h3>
+                    <p>austin.tewh@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2021. All rights reserved.</h5>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+<!-- Essential Scripts -->
+
+<!-- jQuery -->
+<script src="https://tewh.github.io/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://tewh.github.io/plugins/bootstrap/dist/js/popper.min.js"></script>
+<script src="https://tewh.github.io/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="https://tewh.github.io/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="https://tewh.github.io/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://tewh.github.io/plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Portfolio Filtering -->
+<script src="https://tewh.github.io/plugins/filterzr/jquery.filterizr.min.js"></script>
+<script>filterizr.setOptions({filter: '2014'});</script>
+<!-- Smooth Scroll js -->
+<script src="https://tewh.github.io/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<!-- Main Script -->
+
+<script src="https://tewh.github.io/js/script.min.js"></script>
+</body>
+</html>

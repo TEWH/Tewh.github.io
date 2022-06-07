@@ -1,0 +1,57 @@
+{{ if .Site.Params.projects.enable }}
+{{ "<!-- Project Section Start -->" | safeHTML }}
+<section class="blog section" id="blog">
+    <!-- Section for Blog Page Title and Subtitle -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.projects.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.projects.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.projects.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range where .Site.RegularPages "Type" "projects"}}
+            {{ "<!-- single blog post -->" | safeHTML }}
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    <!-- Blog ThumbNail -->
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="{{ .Params.image | absURL }}" alt="Generic placeholder image">
+                    </div>
+                    <!-- Blog Title -->
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <!-- Author and date -->
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                {{ .Params.author }}
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Project Summary -->
+                    <div class="post-content">
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <!-- Project Link -->
+                    <a class="btn btn-main" href="{{ .Permalink }}">Read more</a>
+                </div>
+            </article>
+            {{ "<!-- /single blog post -->" | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Projects Section End -->" | safeHTML }}
+{{ end }}

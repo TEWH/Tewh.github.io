@@ -1,0 +1,53 @@
+{{ $data := index .Site.Data }}
+{{ with $data.clubPics }}
+<section class="club-pics">
+         <!-- Title -->
+        <div class="title text-center">
+            <h2>Join Us!</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval=3000 data-pause=false>
+            <!-- Club-Pics Slide Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Club-Pics Slider -->
+            <div class="carousel-inner">
+                <!-- First item -->
+                <div class="carousel-item active">
+                    <!-- Slide Item background image -->
+                    <div class="overlay-image" style="background-image:url({{ .image | absURL }});"></div>
+                </div>
+                <!-- Second item -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url({{ .image2 | absURL }});"></div>
+                </div>
+                <!-- Third item -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url({{ .image3 | absURL }});"></div>
+                </div>
+                <!-- Fourth item -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url({{ .image4 | absURL }});"></div>
+                </div>
+                <!-- Fifth item -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url({{ .image5 | absURL }});"></div>
+                </div>
+            </div>
+            <!-- Club-Pics Slider Previous Button -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> 
+                <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <!-- Club-Pics Slider Next Button -->
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> 
+                <span class="sr-only" >Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+</section>
+{{ end }}

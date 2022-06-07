@@ -1,0 +1,53 @@
+{{ if .Site.Params.projects.enable }}
+{{ "<!-- Project Section Start -->" | safeHTML }}
+<section class="portfolio section" id="portfolio">
+    <div class="container">
+        <!--SubTitle above projects-->
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.projects.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.projects.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.projects.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <!--Filtering Bar to filter for project in specific years-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portfolio-filter">
+                    <!-- Filter to show all projects -->
+                    <button class="filtr-control" type="button" data-filter="all">All</button>
+                    <!-- Filters for projects in 2014 -->
+                    <button class="filtr-control" type="button" data-filter="2014">2014</button>
+                    <!-- Filters for projects from 2019 to current year -->
+                    {{range (seq 2019 now.Year)}}
+                    <button class="filtr-control" type="button" data-filter="{{ . }}">{{ . }}</button>
+                    {{ end }}
+                    <!-- Filters for current or future projects-->
+                    <button class="filtr-control active" type="button" data-filter="ongoing">Ongoing</button>
+                </div>
+            </div>
+        </div>
+        <!--Container containing actual projects-->
+        <div class="row projectfiltr-container">
+            {{ range where .Site.RegularPages "Type" "projects"}}
+                <!-- If project started/starts in current or future year, classify as "ongoing"-->
+                <div class="col-12 col-md-4 filtr-item" data-category="{{.Params.launchYear}}">
+                    <div class="post-item text-center">
+                        <!--Project Icon-->
+                        <div class="post-thumb">
+                            <img class="img-fluid shadow rounded" src="{{ .Params.image | absURL }}" alt="portfolio-image">
+                        </div>
+                        <div class="post-title">
+                            <a href={{.Permalink}}><h3>{{.Params.title}}</h3></a>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    <!-- end row -->
+</section>
+{{ "<!-- End section -->" | safeHTML }}
+{{ end }}

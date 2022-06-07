@@ -1,0 +1,55 @@
+{{ $data := index .Site.Data }}
+{{ with $data.members }}
+    {{ if .enable }}
+    {{ "<!-- Start Member Resource Section -->" | safeHTML }}
+    <section class="portfolio section" id="portfolio">
+        <div class="container-fluid">
+            <!--SubTitle above member resource section-->
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with .topTitle }}
+                            <h4>{{ . }}</h4>
+                        {{ end }}
+                        {{ with .title }}
+                            <h2>{{ . }}</h2>
+                            <span class="border"></span>
+                        {{ end }}
+                        {{ with .subtitle }}
+                            <p>{{ . }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <!--Filtering Bar to filter for only specific resource-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-filter">
+                        <button class="filtr-control active" type="button" data-filter="all">All</button>
+                        {{ range .filtermenu }}
+                        <button class="filtr-control" type="button" data-filter="{{ .category }}">{{ .name }}</button>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <!--Container containing actual resource-->
+            <div class="row filtr-container">
+                {{ range .item }}
+                    <div class="col-6 col-md-6 filtr-item" data-category="{{.category}}">
+                        <div class="member-resources text-center">
+                            <!--Project Icon-->
+                            <!-- <img class="img-fluid" src="{{ .image | absURL }}" alt="portfolio-image" width=70%> -->
+                            <!--Project Caption-->
+                            <a href="./test">
+                                <h4>{{.resource}}</h4>
+                            </a>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+        <!-- end row -->
+    </section>
+    {{ "<!-- End section -->" | safeHTML }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,22 @@
+{{ if .Site.Params.contact.enable }}
+{{ "<!-- Start Contact Us -->" | safeHTML }}
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.elections.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.elections.title }}
+                    <h2>{{.}}</h2>
+                    <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Params.elections.subtitle }}<p>{{.}}</p>{{ end }}
+                </div>
+            </div>
+        </div>  
+        <!--Officer Postion 1-->
+        <div>{{.Content}}</div>
+    </div>
+</section>
+{{ end }}
