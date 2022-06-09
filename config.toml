@@ -1,5 +1,6 @@
 # Metadata
-baseURL = "https://tewh.github.io/"
+# baseURL = "https://tewh.github.io/"
+baseURL = "https://texasewh.org/"
 languageCode = "en-us"
 title = "TEWH"
 theme = "navigator-hugo"

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elections on TEWH</title>
-    <link>https://tewh.github.io/elections/</link>
+    <link>https://texasewh.org/elections/</link>
     <description>Recent content in Elections on TEWH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Apr 2022 12:37:52 +0600</lastBuildDate>
     
-	<atom:link href="https://tewh.github.io/elections/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://texasewh.org/elections/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
