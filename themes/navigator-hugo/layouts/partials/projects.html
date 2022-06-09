@@ -18,13 +18,13 @@
                 <div class="portfolio-filter">
                     <!-- Filter to show all projects -->
                     <button class="filtr-control" type="button" data-filter="all">All</button>
-                    <!-- Filters for projects in 2014 -->
+                    <!-- Filter for projects in 2014 -->
                     <button class="filtr-control" type="button" data-filter="2014">2014</button>
                     <!-- Filters for projects from 2019 to current year -->
                     {{range (seq 2019 now.Year)}}
                     <button class="filtr-control" type="button" data-filter="{{ . }}">{{ . }}</button>
                     {{ end }}
-                    <!-- Filters for current or future projects-->
+                    <!-- Filter for current or future projects-->
                     <button class="filtr-control active" type="button" data-filter="ongoing">Ongoing</button>
                 </div>
             </div>

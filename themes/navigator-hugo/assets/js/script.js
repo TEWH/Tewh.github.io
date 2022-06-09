@@ -23,7 +23,19 @@
 		/*	Project Filter Setup
 		/* =========================================================================  */
 		setTimeout(function () {
-			var filterizd = $('.projectfiltr-container').filterizr({filter : 'ongoing'});
+			var projectfilterizd = $('.projectfiltr-container').filterizr({filter : 'ongoing'});
+			//Change which category is displayed as active after clicking
+			$('.filtr-control').on('click', function () {
+				$('.filtr-control').removeClass("active");
+				$(this).addClass("active");
+			});
+		}, 500);
+
+		/* ========================================================================= */
+		/*	Member Resources Filter Setup
+		/* =========================================================================  */
+		setTimeout(function () {
+			var resourcefilterizd = $('.resourcefiltr-container').filterizr({filter : 'general'});
 			//Change which category is displayed as active after clicking
 			$('.filtr-control').on('click', function () {
 				$('.filtr-control').removeClass("active");
