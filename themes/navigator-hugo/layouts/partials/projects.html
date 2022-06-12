@@ -18,11 +18,10 @@
                 <div class="portfolio-filter">
                     <!-- Filter to show all projects -->
                     <button class="filtr-control" type="button" data-filter="all">All</button>
-                    <!-- Filter for projects in 2014 -->
-                    <button class="filtr-control" type="button" data-filter="2014">2014</button>
                     <!-- Filters for projects from 2019 to current year -->
-                    {{range (seq 2019 now.Year)}}
-                    <button class="filtr-control" type="button" data-filter="{{ . }}">{{ . }}</button>
+                    {{$projectRoot := .Site.GetPage "/projects"}}
+                    {{range sort $projectRoot.Sections "Title"}}
+                    <button class="filtr-control" type="button" data-filter="{{ .Title }}">{{ .Title }}</button>
                     {{ end }}
                     <!-- Filter for current or future projects-->
                     <button class="filtr-control active" type="button" data-filter="ongoing">Ongoing</button>
@@ -33,7 +32,7 @@
         <div class="row projectfiltr-container">
             {{ range where .Site.RegularPages "Type" "projects"}}
                 <!-- If project started/starts in current or future year, classify as "ongoing"-->
-                <div class="col-12 col-md-4 filtr-item" data-category="{{.Params.launchYear}}">
+                <div class="col-12 col-md-4 filtr-item" data-category="{{.CurrentSection.Title}}">
                     <div class="post-item text-center">
                         <!--Project Icon-->
                         <div class="post-thumb">

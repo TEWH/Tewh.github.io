@@ -103,10 +103,10 @@ name = "Contact"
 url = "contact"
 weight = 4
 
-# [[menu.nav]]
-# name    = "Member Resources"
-# url     = "members"
-# weight  = 3
+[[menu.nav]]
+name    = "Member Resources"
+url     = "members"
+weight  = 3
 
 # Comment out this section when elections are over
 # [[menu.nav]]

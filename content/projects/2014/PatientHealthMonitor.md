@@ -5,7 +5,6 @@ image: images/projects/PatientHealthMonitor/patientMonitor.jpg
 author: Conrad Li
 description: "Patient Health Monitor"
 summary: "In this project, we implemented a low-cost patient health monitor that displays bedside patient vital signs"
-launchYear: 2014
 ---
 
 # Problem Statement
