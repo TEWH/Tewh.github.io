@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://texasewh.org/elections/</loc>
-    <lastmod>2022-04-07T12:37:52+06:00</lastmod>
+    <loc>https://texasewh.org/members/research/researchlabs/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/research/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://texasewh.org/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/elections/</loc>
     <lastmod>2022-04-07T12:37:52+06:00</lastmod>
   </url>
   
@@ -150,10 +160,6 @@
   
   <url>
     <loc>https://texasewh.org/members/research/readingapaper/</loc>
-  </url>
-  
-  <url>
-    <loc>https://texasewh.org/members/research/</loc>
   </url>
   
   <url>
