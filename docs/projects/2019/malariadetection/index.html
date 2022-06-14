@@ -121,7 +121,7 @@
                 
                 
                 
-                    <h2>Malaria Detection</h2>
+                    <h1>Malaria Detection</h1>
                 
                 
                 
@@ -156,6 +156,7 @@
 <p>While all models were developed and trained with the TensorFlow and Keras packages, the final model deployments are subsequently converted into a .tflite file that allows the models to be run on TensorFlow Lite. TensorFlow Lite is an open-source platform focused on on-device model inference. Unlike previously reported studies that utilize phone apps for model prediction, this allows the models to run directly on the Android-based smartphones rather than relying on cloud-based computing resources.</p>
 <p>The Android app takes in a user-selected image of a Giemsa-stained thin blood smear. Then, the SSD300 model isolates individual images of the red blood cells and discards images of white blood cells. if the individual images are of low resolution, the FSRCNN model enhances the resolution. Finally, each red blood cell image is classified by the VGG16 model to count the number of uninfected and infected red blood cells, as shown in Figure 2. Lastly, the file size of the SSD300, FSRCNN, and VGG16 models are 95 MB, 5 MB, and 20 MB, respectively, which is lower than the 200 MB file size limit. A summary of our data pipeline is depicted below.</p>
 <p><img src="/images/projects/MalariaDetection/app_pipeline.png" alt="metrics"></p>
+
 
             </div>
         </div>

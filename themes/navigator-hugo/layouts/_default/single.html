@@ -10,7 +10,7 @@
                 {{end}}
                 <!-- Display Title if set and hidetitle param set to false-->
                 {{if or (not (isset .Params "hidetitle")) (not .Params.hidetitle)}}
-                    <h2>{{ .Title }}</h2>
+                    <h1>{{ .Title }}</h1>
                 {{end}}
                 <!-- Display author and date created if set -->
                 {{if and (isset .Params "author") (isset .Params "date") }}
@@ -29,6 +29,7 @@
                 {{end}}
                 <!-- Display Content -->
                 {{ .Content }}
+
             </div>
         </div>
     </div>

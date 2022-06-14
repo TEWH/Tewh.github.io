@@ -3,7 +3,7 @@ title: Clinical Volunteering
 hidetitle: true
 ---
 
-## **Hospitals**
+## Hospitals
 
 ### [Ascension Seton & Dell Seton](https://supportseton.org/volunteer/apply-now/)
 
@@ -18,7 +18,7 @@ hidetitle: true
 
 * Application requirements may vary by location
 
-## **Small Clinics**
+## Small Clinics
 
 ### [Volunteer Health Clinic](http://www.volclinic.org/volunteer.html)
 
@@ -26,6 +26,6 @@ hidetitle: true
 
 ### [University Health Services](https://www.healthyhorns.utexas.edu/clinicvolunteer.html)
 
-## **Student Orgs**
+## Student Orgs
 
 ### [Hearts for the Homeless](https://utexas.campuslabs.com/engage/organization/h4haustin)

@@ -121,7 +121,7 @@
                 
                 
                 
-                    <h2>Seizure Detection</h2>
+                    <h1>Seizure Detection</h1>
                 
                 
                 
@@ -154,6 +154,7 @@
 <p>Our encoder consists of convolutional layers with batch normalization, reLU activation, and max pooling layers which reduce the input EEG segments of 1280 time points x 23 channels to a low dimensional representation or encoded product of shape 160 x 184. The decoder then reconstructs the input signal through deconvolutional and upsampling layers. The DCAE is trained using the input signal and mean square error loss function which measures the loss associated with the reconstruction of the input signal. The Adam optimizer with a learning rate of .01 is used to minimize this loss function. After training and optimization, optimized parameters are used on a pretrained model consisting only of the encoder layers, which compresses the raw EEG signal epochs into low dimensional feature vectors, which serve as inputs for the classification model. The classification task is done using a bi-directional long short term memory (bi-LSTM) recurrent neural network. The Adam optimizer with a learning rate of .0002 and the binary cross entropy loss function were used. Additionally, in order to reduce overfitting, we implemented residual or skip connections within the bi-LSTM units.</p>
 <p><img src="/images/projects/SeizureDetection/architecture.png" alt="app"></p>
 <p>After training, our model was able to achieve a validation accuracy of 96.59%, a validation precision of 97.72%, and a validation sensitivity of 97.72%.</p>
+
 
             </div>
         </div>

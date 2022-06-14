@@ -1179,7 +1179,7 @@ Backgrounds
 }
 
 /*=================================================================
-  Single Blog Page
+  Blog Page
 ==================================================================*/
 #blog-banner {
   padding-bottom: 100px;
@@ -1272,10 +1272,36 @@ Backgrounds
   width: 100%;
 }
 
-.blog-single p, .blog-single ul, .blog-single ol, 
-.blog-single h1, .blog-single h2, .blog-single  h3, 
-.blog-single h4{
-  color: #343434;
+.blog-single {
+  font-size: 18px;
+  color: #333;
+}
+
+.blog-single p, .blog-single ol, .blog-single ul {
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5; 
+}
+
+.blog-single h1, .blog-single h2, .blog-single h3, .blog-single h4 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: inherit;
+  font-size: inherit;
+}
+
+.blog-single h1 {
+  font-size: 2em;
+}
+
+.blog-single h2 {
+  font-size: 1.5em;
+}
+
+.blog-single h3 {
+  font-size: 1.25em
 }
 
 .blog-single ul {
