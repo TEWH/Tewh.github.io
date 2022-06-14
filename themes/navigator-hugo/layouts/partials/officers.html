@@ -17,15 +17,15 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                {{ range .member }}
-                    {{ "<!-- Officer member -->" | safeHTML }}
+                {{ range .officer }}
+                    {{ "<!-- Officer -->" | safeHTML }}
                     <div class="col-12 col-md-3 col-sm-6">
-                        <div class="team-member text-center">
-                            <div class="member-photo">
-                                <img class="img-fluid" src="{{.image | absURL }}" alt="team people">
+                        <div class="officer text-center">
+                            <div class="officer-photo">
+                                <img class="img-fluid" src="{{.image | absURL }}" alt="officer">
                             </div>
-                            {{ "<!-- member name & designation -->" | safeHTML }}
-                            <div class="member-content">
+                            {{ "<!-- Officer name & designation -->" | safeHTML }}
+                            <div class="officer-content">
                                 <h3>{{ .name }}</h3>
                                 <span>{{ .designation }}</span>
                                 <p>{{ .description }}</p>

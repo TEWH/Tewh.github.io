@@ -1023,58 +1023,58 @@ Backgrounds
 }
 
 /*=================================================================
-  Our Team
+  Officer Team
   ==================================================================*/
-.team-member {
+.officer {
   background: #fff;
   margin-bottom: 15px;
 }
 
-.team-member:hover img {
+.officer:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.team-member:hover .mask {
+.officer:hover .mask {
   opacity: 1;
 }
 
-.team-member .member-content {
+.officer .officer-content {
   padding: 25px 0;
 }
 
-.team-member .member-content h3 {
+.officer .officer-content h3 {
   font-size: 20px;
   margin: 0 0 5px;
   color: #333;
 }
 
-.team-member .member-content span {
+.officer .officer-content span {
   font-size: 14px;
   color: #555;
 }
 
-.team-member .member-content p {
+.officer .officer-content p {
   color: #777;
   margin-top: 10px;
   padding: 0 15px;
 }
 
-.team-member .member-content ul {
+.officer .officer-content ul {
   text-align: center;
   position: relative;
 }
 
-.team-member .member-content ul li {
+.officer .officer-content ul li {
   margin-right: 7px;
 }
 
-.team-member .member-content ul li a {
+.officer .officer-content ul li a {
   font-size: 18px;
   padding: 10px;
 }
 
-.team-member .member-content ul li a i {
+.officer .officer-content ul li a i {
   color: #ff6600;
   background: linear-gradient(100deg, #ff6600, #ff0000);
   background-clip: text;
@@ -1082,17 +1082,17 @@ Backgrounds
   -webkit-text-fill-color: transparent;
 }
 
-.team-member .member-content ul li a::hover {
+.officer .officer-content ul li a::hover {
   background-color: #6cb670;
   border: 1px solid transparent;
 }
 
-.team-member .member-photo {
+.officer .officer-photo {
   overflow: hidden;
   position: relative;
 }
 
-.team-member .member-photo img {
+.officer .officer-photo img {
   transition: all 0.6s ease 0s;
 }
 

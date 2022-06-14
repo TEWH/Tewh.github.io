@@ -16,27 +16,14 @@
             </ol>
             <!-- Club-Pics Slider -->
             <div class="carousel-inner">
-                <!-- First item -->
-                <div class="carousel-item active">
-                    <!-- Slide Item background image -->
-                    <div class="overlay-image" style="background-image:url({{ .image | absURL }});"></div>
-                </div>
-                <!-- Second item -->
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image:url({{ .image2 | absURL }});"></div>
-                </div>
-                <!-- Third item -->
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image:url({{ .image3 | absURL }});"></div>
-                </div>
-                <!-- Fourth item -->
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image:url({{ .image4 | absURL }});"></div>
-                </div>
-                <!-- Fifth item -->
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image:url({{ .image5 | absURL }});"></div>
-                </div>
+                {{ range $index, $pic := .pics}}
+                    <!-- Set the first pic as the default active pic -->
+                    {{$active := cond (eq $index 0) "active" ""}}
+                    <!-- Display each pic -->
+                    <div class="carousel-item {{$active}}">
+                        <div class="overlay-image" style="background-image:url({{$pic | absURL }});"></div>
+                    </div>
+                {{end}}
             </div>
             <!-- Club-Pics Slider Previous Button -->
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> 

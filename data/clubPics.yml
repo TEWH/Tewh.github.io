@@ -1,6 +1,7 @@
-image:  ./images/clubPics/TEWHMembers.jpg
-image2: ./images/clubPics/gm.jpg
-image3: ./images/clubPics/social_gingerbread.jpg
-image4: ./images/clubPics/thumbs_up_david.jpg
-image5: ./images/clubPics/bread_dragon.jpg
+pics: 
+  - ./images/clubPics/TEWHMembers.jpg
+  - ./images/clubPics/gm.jpg
+  - ./images/clubPics/social_gingerbread.jpg
+  - ./images/clubPics/thumbs_up_david.jpg
+  - ./images/clubPics/bread_dragon.jpg
 

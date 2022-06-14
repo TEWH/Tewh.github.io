@@ -3,7 +3,7 @@ topTitle: ""
 title   : Meet the Officers!
 subtitle: ""
 
-member  :
+officer  :
   - image         : "images/team/nethra.jpg"
     name          : Nethra
     designation   : President
