@@ -4,10 +4,12 @@
     {{ "<!-- About Section Start -->" | safeHTML }}
     <section class="about section-sm" id="about">
         <div class="container">
-            {{ range .item }}
+            <!-- List the paragraphs and images talking about us -->
+            {{ range .aboutParagraphs }}
+                <!-- Case where we want the image on the right -->
                 {{ if .positionRight }}
                     <div class="row mt-50 justify-content-center">
-                        <!--Description-->
+                        <!--Display title and description-->
                         <div class="col-md-6 col-sm-12">
                             <div class="content">
                                 <h2>{{ .title }}</h2>
@@ -16,16 +18,19 @@
                                 </p>
                             </div>
                         </div>
-                        <!--Image-->
+                        <!-- Display image -->
                         <div class="col-md-6 col-sm-12 text-center">
                             <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
                         </div>
                     </div>
+                <!-- Case where we want the image on the lelft -->
                 {{ else }}
                     <div class="row mb-50 justify-content-center">
+                        <!-- Display image -->
                         <div class="col-md-6 col-sm-12 text-center">
                             <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
                         </div>
+                        <!-- Display title and descriotion  -->
                         <div class="col-md-6 col-sm-12">
                             <div class="content">
                                 <h2>{{ .title }}</h2>

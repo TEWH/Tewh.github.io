@@ -1,25 +1,21 @@
 # Metadata
 # baseURL = "https://tewh.github.io/"
 baseURL = "https://texasewh.org/"
-title = "TEWH"
 theme = "navigator-hugo"
 summaryLength = 10
-
 publishDir = "docs" # Tells hugo where to put the built site
 pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 
-# Site Variables
+# Global Site Options
 [params]
-logo = "images/logos/logo2.png" # Logo in top left corner
-
-# Site Meta Data
 title = "TEWH" # Site Title
 author = "Conrad Li" # Site Creator
 description = "Texas Engineering World Health"
 dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
-menufixed = false # Whether the menu bar follows you as you scroll
-
+menufixed = false # Whether the menu is fixed at the top of the page or follows as the user scrolls
+# Logo in top left corner
+logo = "images/logos/logo2.png" 
 # Footer Social Media Variables
 socialMediaTitle = "Follow Us"
 githubLink = "https://github.com/TEWH" # Github Link
@@ -33,52 +29,6 @@ emailAddress = "austin.tewh@gmail.com"
 discordTitle = "Join Us"
 discordLink = "https://discord.gg/7Eq2NFxhaH" # Discord Invite link
 discordIcon = "images/social_icons/Discord-Logo-White.png" # Discord Icon
-
-# Cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
-# Hero Area Section
-[params.hero]
-enable  = true
-heading = "Texas Engineering World Health"
-description = "Creating innovative low-cost medical devices for the developing world."
-tewhLogo = "images/logos/logo3.png"
-
-# About 2 Section
-[params.aboutSm]
-enable  = true
-title = "Teaching essential biomedical engineering skills through projects"
-description = "One of our goals is to provide the next generation of biomedical engineers and researchers the technical skillset to design medical devices. Our hope is that our members can use what they learn here for their own future biomedical endeavours. Over the course of their projects, our members learn device fabrication, wet lab techniques, computer programming, machine learning, and more!"
-
-# Project Section
-[params.projects]
-enable  = true
-topTitle= ""
-title   = "Projects"
-subtitle= "Check out our past and current projects! You can filter based on each project's launch year!"
-
-# Member Resources Section
-[params.members]
-enable = true
-topTitle = ""
-title = "Member Resources"
-subtitle = ""
-
-# Elections Section
-[params.elections]
-enable = true
-topTitle = ""
-title = "Election Videos"
-subtitle = ""
-
-# Contact Section
-[params.contact]
-enable  = true
-topTitle = ""
-title   = "Contact Us"
-subtitle= "If you are a student interested in joining or a company wanting to sponsor TEWH please contact us at the email below and we will get back to you as soon as possible!"
 
 # Site Menus
 [menu]
@@ -118,3 +68,47 @@ weight  = 3
 # name = "Calendar"
 # url = "calendar"
 # weight = 3
+
+# Hero Area Section
+[params.hero]
+enable  = true
+title = "Texas Engineering World Health"
+subtitle = "Creating innovative low-cost medical devices for the developing world."
+tewhLogo = "images/logos/logo3.png"
+
+# About 2 Section
+[params.aboutSm]
+enable  = true
+
+# Project Section
+[params.projects]
+enable  = true
+topTitle= ""
+title   = "Projects"
+subtitle= "Check out our past and current projects! You can filter based on each project's launch year!"
+
+# Member Resources Section
+[params.members]
+enable = true
+topTitle = ""
+title = "Member Resources"
+subtitle = ""
+
+# Elections Section
+[params.elections]
+enable = true
+topTitle = ""
+title = "Election Videos"
+subtitle = ""
+
+# Contact Section
+[params.contact]
+enable  = true
+topTitle = ""
+title   = "Contact Us"
+subtitle= "If you are a student interested in joining or a company wanting to sponsor TEWH please contact us at the email below and we will get back to you as soon as possible!"
+
+# Cookies
+[params.cookies]
+enable = false
+expire_days = 2

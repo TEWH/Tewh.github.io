@@ -1,5 +1,9 @@
 enable  : true
-item    :
+
+summary: Teaching essential biomedical engineering skills through projects
+description : One of our goals is to provide the next generation of biomedical engineers and researchers the technical skillset to design medical devices. Our hope is that our members can use what they learn here for their own future biomedical endeavours. Over the course of their projects, our members learn device fabrication, wet lab techniques, computer programming, machine learning, and more!
+
+aboutParagraphs :
   - positionRight : false
     image : "images/about/patientMonitor.jpg"
     title : Creating medical devices for the developing world

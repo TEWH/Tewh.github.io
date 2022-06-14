@@ -6,10 +6,10 @@
             <div class="col-md-12">
                 <!--Define heading and description in hero-->
                 <div class="block text-center">
-                    {{ with .Site.Params.hero.heading }}
+                    {{ with .Site.Params.hero.title }}
                         <h2>{{ . }}</h2>
                     {{ end }}
-                    {{ with .Site.Params.hero.description }}
+                    {{ with .Site.Params.hero.subtitle }}
                         <p>{{ . }}</p>
                     {{ end }}
                 </div>
