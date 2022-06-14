@@ -1,16 +1,12 @@
 # Metadata
 # baseURL = "https://tewh.github.io/"
 baseURL = "https://texasewh.org/"
-languageCode = "en-us"
 title = "TEWH"
 theme = "navigator-hugo"
 summaryLength = 10
 
 publishDir = "docs" # Tells hugo where to put the built site
 pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
-
-# [markup]
-# defaultMarkdownHandler = 'goldmark'
 
 # Site Variables
 [params]
@@ -20,10 +16,9 @@ logo = "images/logos/logo2.png" # Logo in top left corner
 title = "TEWH" # Site Title
 author = "Conrad Li" # Site Creator
 description = "Texas Engineering World Health"
-languageCode = "en-us" # Language
 dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
-menufixed = false
+menufixed = false # Whether the menu bar follows you as you scroll
 
 # Footer Social Media Variables
 socialMediaTitle = "Follow Us"
@@ -41,45 +36,45 @@ discordIcon = "images/social_icons/Discord-Logo-White.png" # Discord Icon
 
 # Cookies
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 
 # Hero Area Section
-[Languages.en.params.hero]
+[params.hero]
 enable  = true
 heading = "Texas Engineering World Health"
 description = "Creating innovative low-cost medical devices for the developing world."
 tewhLogo = "images/logos/logo3.png"
 
 # About 2 Section
-[Languages.en.params.aboutSm]
+[params.aboutSm]
 enable  = true
 title = "Teaching essential biomedical engineering skills through projects"
 description = "One of our goals is to provide the next generation of biomedical engineers and researchers the technical skillset to design medical devices. Our hope is that our members can use what they learn here for their own future biomedical endeavours. Over the course of their projects, our members learn device fabrication, wet lab techniques, computer programming, machine learning, and more!"
 
 # Project Section
-[Languages.en.params.projects]
+[params.projects]
 enable  = true
 topTitle= ""
 title   = "Projects"
 subtitle= "Check out our past and current projects! You can filter based on each project's launch year!"
 
 # Member Resources Section
-[Languages.en.params.members]
+[params.members]
 enable = true
 topTitle = ""
 title = "Member Resources"
 subtitle = ""
 
 # Elections Section
-[Languages.en.params.elections]
+[params.elections]
 enable = true
 topTitle = ""
 title = "Election Videos"
 subtitle = ""
 
 # Contact Section
-[Languages.en.params.contact]
+[params.contact]
 enable  = true
 topTitle = ""
 title   = "Contact Us"

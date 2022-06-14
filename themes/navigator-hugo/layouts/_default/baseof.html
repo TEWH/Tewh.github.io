@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    {{- partial "head.html" . -}}
+    {{- partial "general/head.html" . -}}
     <body id="body">
-        {{ partial "preloader.html" . }}
-        {{- partial "header.html" . -}}
+        {{ partial "general/preloader.html" . }}
+        {{- partial "general/header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{- partial "general/footer.html" . -}}
     </body>
 </html>
