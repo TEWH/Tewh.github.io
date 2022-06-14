@@ -1,5 +1,8 @@
 ---
 title: How to Read Research Articles
+
+aliases:
+    - /members/research/readingapaper/
 ---
 
 

@@ -1,5 +1,8 @@
 ---
 title: Emailing Professors for Research
+
+aliases:
+    - /members/research/howtowriteemailtoreasearchers/
 ---
 
 Use this template to reach out to professors at UT or any other universities (yes, this actually works!!). Feel free to modify the template however you want! If you are really interested in a professor's research, you can skim their papers and add what you found interesting about them. Reaching out to graduate students also works if the professor doesn’t reply immediately.  Also, don’t be afraid to follow up if they don’t reply within a week! 

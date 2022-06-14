@@ -1,6 +1,9 @@
 ---
 title: Clinical Volunteering
 hidetitle: true
+
+aliases:
+    - /members/volunteering/clinicalvolunteering/
 ---
 
 ## Hospitals

@@ -2,6 +2,9 @@
 title: "Biomedical Research Labs"
 date: 2022-06-13
 hidetitle: True
+
+aliases:
+    - /members/research/researchlabs/
 ---
 
 ## Biomedical Engineering (BME) Labs 
