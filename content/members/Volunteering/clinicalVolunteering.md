@@ -12,11 +12,11 @@ hidetitle: true
 
 ### [St. David's](https://stdavids.com/about/volunteering/)
 
-* Multiple locations throughout Austin
+* Application requirements may vary location
 
 ### [Baylor Scott & White](https://www.bswhealth.com/locations/round-rock/about/become-a-volunteer)
 
-* Multiple locations throughout Austin
+* Application requirements may vary by location
 
 ## **Small Clinics**
 
