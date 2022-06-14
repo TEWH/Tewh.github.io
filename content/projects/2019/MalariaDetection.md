@@ -5,7 +5,7 @@ image: images/projects/MalariaDetection/app.png
 author: Conrad Li
 description: "Malaria Detection Project"
 summary: "In this project, we implemented a deep learning malaria detection algorithm"
-launchYear: 2019
+ongoing: False
 ---
 
 # Problem Statement

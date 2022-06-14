@@ -1,0 +1,82 @@
+title: "Research Opportunities"
+subtitle:
+description: "Below is a list of UT researchers and some research areas"
+
+researchOpps:
+  - area: Biomedical Imaging
+    url: https://www.bme.utexas.edu/people/faculty-directory/research/imaging
+    description: 
+
+  - area: Cellular & Biomolecular Engineering
+    url: https://www.bme.utexas.edu/people/faculty-directory/research/cellular
+    description: 
+
+  - area: Computational Biomedical Engineering
+    url: https://www.bme.utexas.edu/people/faculty-directory/research/computational
+    description: 
+
+  - area: Molecular, Cellular & Tissue Biomechanics
+    url: https://www.bme.utexas.edu/people/faculty-directory/research/biomechanics
+    description: 
+
+  - area: Molecular Biology & Genetics
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/89-faculty-expertise/31-molecular-biology
+    description: 
+
+  - area: Microbiology, Immunology & Infectious Disease
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/89-faculty-expertise/51-infectious-disease
+    description: 
+
+  - area: Systems & Synthetic Biology 
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/89-faculty-expertise/38-systems-biology?access=MjUsMzEyMg==
+    description: 
+
+  - area: Immunology
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/89-faculty-expertise/1215-immunology
+    description: 
+
+  - area: Psychology
+    url: https://liberalarts.utexas.edu/psychology/research/labs.php 
+    description: 
+
+  - area: Neurogenetics
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/88-other/2200-neurogenetics
+    description: 
+  
+  - area: Ion Channels, Neurotransmitter Receptors & Molecular Signaling 
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/88-other/2196-ion-channels-neurotransmitter-receptors-molecular-signaling
+    description: 
+  
+  - area: Systems & Integrative Neuroscience
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/88-other/2202-systems-integrative-neuroscience
+    description:
+
+  - area: Neurodegenerative Disease & Injury
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/88-other/2198-neurodegenerative-disease-injury
+    description:
+  
+  - area: Neural Development & Plasticity
+    url: https://cns.utexas.edu/faculty-research/research-areas/item/88-other/2197-neural-development-plasticity
+    description:
+
+  - area: Biomedically-Focused Oden Institute (CompE) Labs
+    url: https://oden.utexas.edu/people/directory/?topic=Computational%20Biology%2CComputational%20Medicine
+    description: 
+
+  - area: Biomedically-Focused CS Labs
+    url:  https://www.cs.utexas.edu/research/bioinformatics-and-computational-biology
+    description: 
+
+  - area: Biomedically Focused ECE Labs
+    url: https://www.ece.utexas.edu/research/areas/bioece
+    description: 
+
+  - area: Biomedically Focused MechE Labs
+    url: https://www.me.utexas.edu/research/research-areas/biomechanical-and-biomedicine
+    description: 
+
+  - area: TEWH Custom  Lab List
+    url: 
+    description:  
+
+  

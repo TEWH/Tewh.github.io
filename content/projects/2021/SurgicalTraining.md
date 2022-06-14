@@ -5,7 +5,7 @@ image: images/projects/SurgicalTraining/device.jpg
 author: Jawad Hamza
 description: "Surgical Training"
 summary: "In this project, haptic feedback surgical training devices to help medical trainees learn needle thoracostomy."
-launchYear: 2021, ongoing
+ongoing: True
 ---
 
 # Problem Statement

@@ -5,7 +5,7 @@ image: images/projects/UltrasonicVision/glasses.png
 author: Nethra Venkatayogi
 description: "Ultrasonic Vision"
 summary: "In this project, we designed a sonar-based visual aid device for the visually impaired "
-launchYear: 2019   
+ongoing: False
 ---
 
 # Problem Statement

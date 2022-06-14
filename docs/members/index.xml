@@ -11,14 +11,5 @@
 	<atom:link href="https://texasewh.org/members/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Test</title>
-      <link>https://texasewh.org/members/test/</link>
-      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://texasewh.org/members/test/</guid>
-      <description>In this project, we propose a wearable device coupled with a neural network for the diagnosis of cardiac arrhythmia</description>
-    </item>
-    
   </channel>
 </rss>

@@ -5,7 +5,7 @@ image: images/projects/MSCExosomes/exosomes.png
 author: Maanas Gupta
 description: "MSC Exosomes"
 summary: "In this project, we are testing whether exosomes are viable drug delivery candidate to bypass the blood brain barrier."
-launchYear: 2021, ongoing
+ongoing: True
 ---
 
 # Problem Statement

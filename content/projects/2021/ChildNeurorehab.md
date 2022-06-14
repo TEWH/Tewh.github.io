@@ -5,7 +5,7 @@ image: images/projects/ChildNeurorehab/neuro_feedback.png
 author: Conrad Li
 description: "Child Neurorehab"
 summary: "In this project, we are developing an EMG-FES system for patients suffering from neurological trauma that predicts intent to move and then activates proper muscle groups"
-launchYear: 2021
+ongoing: False
 ---
 
 # Problem Statement

@@ -5,7 +5,7 @@ image: images/projects/SoftRobotics/apparatus.jpg
 author: Sruja Arya
 description: "Soft Robotics"
 summary: "In this project, we are developing a soft robotic that promote wound healing "
-launchYear: 2021
+ongoing: False
 ---
 
 # Problem Statement

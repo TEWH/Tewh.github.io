@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Leukemia Detection Project">
+ <meta name="author" content="Conrad Li">
+<meta name="generator" content="Hugo 0.68.3" />
+
+<title>Leukemia Detection</title>
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://texasewh.org/images/favicon.ico" />
+
+<!-- Stylesheets -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="https://texasewh.org/plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="https://texasewh.org/plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="https://texasewh.org/plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://texasewh.org/plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="https://texasewh.org/plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
+
+
+<link rel="stylesheet" href="https://texasewh.org/css/style.min.css" media="screen">
+
+</head>
+<body id="body">
+        <!-- Start Preloader -->
+<div id="preloader">
+    <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+</div>
+<!-- End Preloader --><!-- Fixed Navigation -->
+
+<section class="header navigation">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    
+                    <a class="navbar-brand" href="https://texasewh.org/">
+                        <img src="https://texasewh.org/images/logos/logo2.png" alt="TEWH" height=50px>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://texasewh.org/">Home</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://texasewh.org/projects">Projects</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://texasewh.org/officers">Officers</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://texasewh.org/members">Member Resources</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://texasewh.org/contact">Contact</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section><div id="content">
+
+<section class="blog-single section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                
+                
+                    <img src="https://texasewh.org/images/projects/LeukemiaDetection/app.png" class="w-75 mb-3" alt="Post-Image">
+                
+                
+                
+                    <h2>Leukemia Detection</h2>
+                
+                
+                
+                <div class="post-meta mb-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span>By</span>
+                            Conrad Li
+                        </li>
+                        <li class="list-inline-item">
+                            <span>at</span>
+                            <span>May 8, 2021</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                <h1 id="problem-statement">Problem Statement</h1>
+<p>Every year, 65% of all deaths associated with leukemia occur in developing countries.
+Many of these deaths are preventable with early detection, proper treatment, and accurate diagnoses, yet there is little infrastructure in place to accurately detect leukemia in developing nations. The process for diagnosing leukemia can be performed through various tests. Manual diagnoses are done
+by experienced medical professionals/trained operators for physical examinations, blood tests, blood
+counts, bone marrow and cerebrospinal fluid biopsies. However, there are many problems with current
+diagnosing procedures and processes. Manual diagnosing is time-consuming, tedious, and prone to errors. To combat these issues and address the need for improved leukemia diagnostic techniques in developing countries, we sought to create a machine learning-based (ML) solution targeted at detecting leukemia from blood smear images taken by our low-cost phone-based microscope.</p>
+<h1 id="implementation">Implementation</h1>
+<h2 id="neural-network-architecture">Neural Network Architecture</h2>
+<p>In order to identify blood cells with acute lymphocytic leukemia (ALL), we framed the leukemia detection as a binary classification task where we must classify each blood cell as either ALL or healthy (HEM). We used ResNet-34 model pretrained on the ImageNet dataset. Freezing all parameters except for the last MLP later, we then trained this model on the publicly available Cancer Imaging Archive ALL dataset, which contains 15,135 segmented and labeled images of immature leukemic blasts and healthy lymphocytes derived from blood smears. To enhance model performance, an SGD optimizer with Nesterov momentum and a learning rate of 0.010 was used for 10 epochs on a batch size of 64 images. Input images were 257x257x3 pixels with RGB channels. To obtain the performance metrics, ten-fold cross-validation was performed.</p>
+<p>Based on the results from the binary classification, our model consistently classified cancerous lymphoblasts from healthy lymphocytes (ALL), with an accuracy of 95.72 ± 0.68% (mean ± std). This value was comparable to standard cytochemical diagnostics of acute lymphoblastic leukemia, which exhibit accuracies ranging from 86-97%. Other metrics indicating successful performance included a sensitivity of 97.24 ± 0.31%, specificity of 92.65 ± 0.74%, F1 score of 95.55% ± 0.63%, and area under the curve of 0.9922 ± 0.011. The CNN can run locally on a low-grade smartphone, with an interface allowing the user to photograph the blood smear and view previous and current results from the model. The figure on the bottom left demonstrates where in the cells that the  classifier is looking at to determine if has Leukemia. Additionally, the figure on the bottom right shows the training and validation losses associated with the training of the classifier.</p>
+<p><img src="/images/projects/LeukemiaDetection/metrics.png" alt="metrics"></p>
+<h2 id="slide-imaging-device">Slide Imaging Device</h2>
+<p>After analyzing various microscopy techinques, we deteremined that brightfield microscopy was the cheapest and the safest. Like traditional optical microscopes, we used convex lenses in our prototype and used the manufacturer specifications to determine the approximate distances between the lenses. We made a dual lens system and to determine the distance between them was calculated using focal lengths, image distance, and the nearpoint of the eye. For the microscope tube, we used 3D printed PLA plastic in order to get the exact dimensions. For the platform movement system, a simple pulley system was designed. The most important aspect of the pulley system is making sure both sides of the platform raise and lower equally, and to overcome this hurdle, we created a design which uses a single axle to support and adjust both sides of the pulley which can be seen. Lastly, we made sure there was ample space for the light source to be switched out if necessary.</p>
+<p>For the microscope, once a sample of blood is obtained, the first step is to dye the sample using hematoxylin. We will then open up the front of the microscope and place the slide holding the sample onto the platform. Next, we turn on the light source to illuminate the sample. The phone is placed on the top of the eyepiece. From here, we simply adjust the platform height using the pulley system until the image is brought into focus.</p>
+<p><img src="/images/projects/LeukemiaDetection/hardware.png" alt="hardware"></p>
+<h2 id="mobile-app">Mobile App</h2>
+<p>A key part of ensuring that our detection algorithm was accessible to our target audience was developing an easy-to-use mobile app that was capable of running on low-cost smartphone devices. In order to develop this, we utilized React Native, a cross-platform app development framework with capabilities to easily create and deploy apps capable of running on any grade or type of smart device. Another important aspect of creating a viable user interface for developing nations was ensuring that the algorithm would be able to run locally without a need for data, wifi, or cloud computing resources. To meet this goal, we utilized TensorFlow Lite,  an open-source platform with the ability to allow for on-device inference.</p>
+<p>Using the hardware microscope and mobile device, first a user-taken or selected image of a Giemsa-stained thin blood smear is uploaded to the mobile app. Next, the model isolates the lymphocytes in the image based on differences in staining using a masking method in which all parts of the image but the cell in consideration are blacked out. Following initial masking, each lymphocyte is classified as exhibiting characteristics of ALL or as healthy using the binary classification model. This process is then automatically repeated for all lymphocytes within the cell. Following the image processing, the number of uninfected and infected lymphocytes is displayed as shown in the figure below. This data is stored directly on the phone in a format lower than 200 MB file restriction to allow the user to view past results at any time. In addition to the actual classification, the phone suggests if the individual may have ALL and shows relevant resources and health organizations to contact in order to ensure that they know the next steps required to receive treatment. The app also includes instructions for obtaining and staining a blood smear, instructions on how to use the microscope, and options to order replacement parts. Several screens from the mobile app are shown below.</p>
+<p><img src="/images/projects/LeukemiaDetection/app.png" alt="app"></p>
+<h1 id="future-improvements">Future Improvements</h1>
+<p>In order to improve, our leukemia detection model, we need to look into newer neural network architectures to see if the accuracy improves. One drawaback of neural networks is the inability to measure uncertainty. If we were able to generate a quantitative measure of uncertainity (i.e. Gaussian processes), this would help our users determine how much to trust our model&rsquo;s decision. Finding ways to improve the resolution of our microscope will also help improve our accuracy.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </div><!-- Footer Start -->
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Follow Us</h3>
+                    <a href=https://www.instagram.com/texasewh/?hl&#61;en target="_blank">
+                        <img src=https://texasewh.org/images/social_icons/insta_icon.png>
+                    </a>
+                    <a href=https://github.com/TEWH target="_blank">
+                        <img src=https://texasewh.org/images/social_icons/GitHub-Mark-Light-32px.png>
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Join Us</h3>
+                    <a href=https://discord.gg/7Eq2NFxhaH target="_blank">
+                        <img src=https://texasewh.org/images/social_icons/Discord-Logo-White.png width=32px>
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Contact Us</h3>
+                    <p>austin.tewh@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2021. All rights reserved.</h5>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+<!-- Essential Scripts -->
+
+<!-- jQuery -->
+<script src="https://texasewh.org/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://texasewh.org/plugins/bootstrap/dist/js/popper.min.js"></script>
+<script src="https://texasewh.org/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="https://texasewh.org/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="https://texasewh.org/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://texasewh.org/plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Portfolio Filtering -->
+<script src="https://texasewh.org/plugins/filterzr/jquery.filterizr.min.js"></script>
+<script>filterizr.setOptions({filter: '2014'});</script>
+<!-- Smooth Scroll js -->
+<script src="https://texasewh.org/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<!-- Main Script -->
+
+<script src="https://texasewh.org/js/script.min.js"></script>
+</body>
+</html>

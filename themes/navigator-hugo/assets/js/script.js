@@ -25,8 +25,8 @@
 		setTimeout(function () {
 			var projectfilterizd = $('.projectfiltr-container').filterizr({filter : 'ongoing'});
 			//Change which category is displayed as active after clicking
-			$('.filtr-control').on('click', function () {
-				$('.filtr-control').removeClass("active");
+			$('.projectfiltr-control').on('click', function () {
+				$('.projectfiltr-control').removeClass("active");
 				$(this).addClass("active");
 			});
 		}, 500);
@@ -35,10 +35,10 @@
 		/*	Member Resources Filter Setup
 		/* =========================================================================  */
 		setTimeout(function () {
-			var resourcefilterizd = $('.resourcefiltr-container').filterizr({filter : 'general'});
+			var resourcefilterizd = $('.resourcefiltr-container').filterizr({filter : 'all'});
 			//Change which category is displayed as active after clicking
-			$('.filtr-control').on('click', function () {
-				$('.filtr-control').removeClass("active");
+			$('.resourcefiltr-control').on('click', function () {
+				$('.resourcefiltr-control').removeClass("active");
 				$(this).addClass("active");
 			});
 		}, 500);

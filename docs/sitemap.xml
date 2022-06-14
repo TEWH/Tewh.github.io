@@ -13,32 +13,37 @@
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/childneurorehab/</loc>
+    <loc>https://texasewh.org/projects/2021/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/mscexosome/</loc>
+    <loc>https://texasewh.org/projects/2021/childneurorehab/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/drugrefrigeration/</loc>
+    <loc>https://texasewh.org/projects/2021/mscexosome/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/surgicaltraining/</loc>
+    <loc>https://texasewh.org/projects/2021/drugrefrigeration/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/softrobotics/</loc>
+    <loc>https://texasewh.org/projects/2021/surgicaltraining/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/needsbasedanalysis/</loc>
+    <loc>https://texasewh.org/projects/2021/softrobotics/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/projects/2021/needsbasedanalysis/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,37 +68,42 @@
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/leukemiadetection/</loc>
+    <loc>https://texasewh.org/projects/2020/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/seizuredetection/</loc>
+    <loc>https://texasewh.org/projects/2020/leukemiadetection/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/solarpoweredautoclave/</loc>
+    <loc>https://texasewh.org/projects/2020/seizuredetection/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/projects/2019/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/ultrasonicvision/</loc>
+    <loc>https://texasewh.org/projects/2019/solarpoweredautoclave/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/arrhythmiadetection/</loc>
+    <loc>https://texasewh.org/projects/2019/ultrasonicvision/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/projects/2020/arrhythmiadetection/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/malariadetection/</loc>
-    <lastmod>2020-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://texasewh.org/members/test/</loc>
+    <loc>https://texasewh.org/projects/2019/malariadetection/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,7 +123,12 @@
   </url>
   
   <url>
-    <loc>https://texasewh.org/projects/patienthealthmonitor/</loc>
+    <loc>https://texasewh.org/projects/2014/</loc>
+    <lastmod>2015-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/projects/2014/patienthealthmonitor/</loc>
     <lastmod>2015-05-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -122,7 +137,35 @@
   </url>
   
   <url>
+    <loc>https://texasewh.org/members/volunteering/clinicalvolunteering/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/computational/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/research/howtowriteemailtoreasearchers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/research/readingapaper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/research/</loc>
+  </url>
+  
+  <url>
     <loc>https://texasewh.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/volunteering/</loc>
+  </url>
+  
+  <url>
+    <loc>https://texasewh.org/members/wet-lab/</loc>
   </url>
   
 </urlset>

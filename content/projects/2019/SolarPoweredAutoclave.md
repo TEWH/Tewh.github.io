@@ -5,7 +5,7 @@ image: images/projects/SolarPoweredAutoclave/full_model.png
 author: Conrad Li
 description: "Solar Powered Autoclave"
 summary: "In this project, we are developing solar powered autoclave that is both low-cost and sustainable"
-launchYear: 2019
+ongoing: False
 ---
 
 # Problem Statement

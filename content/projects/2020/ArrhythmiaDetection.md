@@ -5,7 +5,7 @@ image: images/projects/ArrhythmiaDetection/data_flow.png
 author: Nethra Venkatayogi
 description: "Arrhythmia Detection Project"
 summary: "In this project, we propose a wearable device coupled with a neural network for the diagnosis of cardiac arrhythmia"
-launchYear: 2020
+ongoing: False
 ---
 
 # Problem Statement

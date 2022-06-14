@@ -16,28 +16,31 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="portfolio-filter">
-                    <!-- Filter to show all projects -->
-                    <button class="filtr-control" type="button" data-filter="all">All</button>
-                    <!-- Filters for projects from 2019 to current year -->
-                    {{$projectRoot := .Site.GetPage "/projects"}}
-                    {{range sort $projectRoot.Sections "Title"}}
-                    <button class="filtr-control" type="button" data-filter="{{ .Title }}">{{ .Title }}</button>
+                    <!-- Filter to show all project -->
+                    <button class="projectfiltr-control" type="button" data-filter="all">All</button>
+                    <!-- Filters for projects by launch year -->
+                    {{$projectRootDir := .Site.GetPage "/projects"}}
+                    {{range sort $projectRootDir.Sections "Title"}}
+                    <button class="projectfiltr-control" type="button" data-filter="{{ .Title }}">{{ .Title }}</button>
                     {{ end }}
                     <!-- Filter for current or future projects-->
-                    <button class="filtr-control active" type="button" data-filter="ongoing">Ongoing</button>
+                    <button class="projectfiltr-control active" type="button" data-filter="ongoing">Ongoing</button>
                 </div>
             </div>
         </div>
         <!--Container containing actual projects-->
         <div class="row projectfiltr-container">
             {{ range where .Site.RegularPages "Type" "projects"}}
-                <!-- If project started/starts in current or future year, classify as "ongoing"-->
-                <div class="col-12 col-md-4 filtr-item" data-category="{{.CurrentSection.Title}}">
+                <!-- Check if project is ongoing-->
+                {{ $ongoing := (cond .Params.ongoing ", ongoing" "") }}
+                {{ $data_class :=  $ongoing | printf "%s%s" .CurrentSection.Title}}
+                <div class="col-12 col-md-4 filtr-item" data-category="{{$data_class}}">
                     <div class="post-item text-center">
                         <!--Project Icon-->
                         <div class="post-thumb">
                             <img class="img-fluid shadow rounded" src="{{ .Params.image | absURL }}" alt="portfolio-image">
                         </div>
+                        <!-- Project Title  -->
                         <div class="post-title">
                             <a href={{.Permalink}}><h3>{{.Params.title}}</h3></a>
                         </div>

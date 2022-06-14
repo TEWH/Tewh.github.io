@@ -5,7 +5,7 @@ image: images/projects/LeukemiaDetection/app.png
 author: Conrad Li
 description: "Leukemia Detection Project"
 summary: "In this project, we created a neural network, portable microscope, and mobile app system to diagnose acute lymphocytic leukemia (ALL)"
-launchYear: 2020
+ongoing: False
 ---
 
 # Problem Statement

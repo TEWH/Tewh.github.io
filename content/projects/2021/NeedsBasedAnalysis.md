@@ -5,7 +5,7 @@ image: images/projects/NeedsBasedAnalysis/scissor.jpg
 author: Nethra Venkatayogi
 description: "Needs Based"
 summary: "In this project, we are creating surgical training tools that will more accurately simulate congenital cardiac surgery"
-launchYear: 2021, ongoing
+ongoing: True
 ---
 
 # Problem Statement

@@ -5,7 +5,7 @@ image: images/projects/DrugRefrigeration/rotating_part.png
 author: Matthew Alain De Guzman
 description: "Drug Refrigeration"
 summary: "In this project, we are experimenting with new ways to refrigerate drugs"
-launchYear: 2021
+ongoing: False
 ---
 
 # Problem Statement

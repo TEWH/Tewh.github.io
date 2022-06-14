@@ -33,6 +33,9 @@ ol, ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: "Titillium Web", sans-serif;
+  color: #9a9a9a;
+  font-size: 18px;
 }
 
 figure {
@@ -1267,6 +1270,20 @@ Backgrounds
   max-width: 120px;
   padding: 5px;
   width: 100%;
+}
+
+.blog-single p, .blog-single ul, .blog-single ol, 
+.blog-single h1, .blog-single h2, .blog-single  h3, 
+.blog-single h4{
+  color: #343434;
+}
+
+.blog-single ul {
+  list-style: inside;
+}
+
+.blog-single ol {
+  list-style: decimal;
 }
 
 /*=================================================================

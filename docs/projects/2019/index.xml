@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 on TEWH</title>
+    <link>https://texasewh.org/projects/2019/</link>
+    <description>Recent content in 2019 on TEWH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://texasewh.org/projects/2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solar Powered Autoclave</title>
+      <link>https://texasewh.org/projects/2019/solarpoweredautoclave/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/projects/2019/solarpoweredautoclave/</guid>
+      <description>In this project, we are developing solar powered autoclave that is both low-cost and sustainable</description>
+    </item>
+    
+    <item>
+      <title>Ultrasonic Vision for the Visually Impaired</title>
+      <link>https://texasewh.org/projects/2019/ultrasonicvision/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/projects/2019/ultrasonicvision/</guid>
+      <description>In this project, we designed a sonar-based visual aid device for the visually impaired</description>
+    </item>
+    
+    <item>
+      <title>Malaria Detection</title>
+      <link>https://texasewh.org/projects/2019/malariadetection/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/projects/2019/malariadetection/</guid>
+      <description>In this project, we implemented a deep learning malaria detection algorithm</description>
+    </item>
+    
+  </channel>
+</rss>

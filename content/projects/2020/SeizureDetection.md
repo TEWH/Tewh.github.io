@@ -5,7 +5,7 @@ image: images/projects/SeizureDetection/summary.png
 author: Conrad Li
 description: "Seizure Detection Project"
 summary: "In this project, we created a low-cost EEG-based wearable seizure detection alarm system"
-launchYear: 2020
+ongoing: False
 ---
 
 # Problem Statement

@@ -4,8 +4,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-75 mb-3" alt="Post-Image">
-                <h2>{{ .Title }}</h2>
+                <!-- Display thumbnail if set -->
+                {{if isset .Params "image"}}
+                    <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-75 mb-3" alt="Post-Image">
+                {{end}}
+                <!-- Display Title if set and hidetitle param set to false-->
+                {{if or (not (isset .Params "hidetitle")) (not .Params.hidetitle)}}
+                    <h2>{{ .Title }}</h2>
+                {{end}}
+                <!-- Display author and date created if set -->
+                {{if and (isset .Params "author") (isset .Params "date") }}
                 <div class="post-meta mb-5">
                     <ul class="list-inline">
                         <li class="list-inline-item">
@@ -18,6 +26,8 @@
                         </li>
                     </ul>
                 </div>
+                {{end}}
+                <!-- Display Content -->
                 {{ .Content }}
             </div>
         </div>

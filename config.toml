@@ -9,8 +9,8 @@ summaryLength = 10
 publishDir = "docs" # Tells hugo where to put the built site
 pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 
-[markup]
-defaultMarkdownHandler = 'goldmark'
+# [markup]
+# defaultMarkdownHandler = 'goldmark'
 
 # Site Variables
 [params]
