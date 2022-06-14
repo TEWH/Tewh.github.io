@@ -12,11 +12,11 @@ hidetitle: true
 
 ### [St. David's](https://stdavids.com/about/volunteering/)
 
-* Varies by location 
+* Multiple locations throughout Austin
 
 ### [Baylor Scott & White](https://www.bswhealth.com/locations/round-rock/about/become-a-volunteer)
 
-* Also multiple locations available 
+* Multiple locations throughout Austin
 
 ## **Small Clinics**
 
@@ -28,4 +28,4 @@ hidetitle: true
 
 ## **Student Orgs**
 
-### [Hearts for the Homeless](https://www.instagram.com/h4haustin/?hl=en)
+### [Hearts for the Homeless](https://utexas.campuslabs.com/engage/organization/h4haustin)
