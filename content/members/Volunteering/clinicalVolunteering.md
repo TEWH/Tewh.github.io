@@ -12,7 +12,7 @@ hidetitle: true
 
 ### [St. David's](https://stdavids.com/about/volunteering/)
 
-* Application requirements may vary location
+* Application requirements may vary by location
 
 ### [Baylor Scott & White](https://www.bswhealth.com/locations/round-rock/about/become-a-volunteer)
 
