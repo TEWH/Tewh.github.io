@@ -1,4 +1,4 @@
-{{ if .Site.Params.members.enable }}
+{{ if .Site.Params.memberResources.enable }}
 {{ "<!-- resource Section Start -->" | safeHTML }}
 <section class="portfolio section" id="portfolio">
     <div class="container">
@@ -6,9 +6,9 @@
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.members.topTitle }}<h4>{{ . }}</h4>{{ end }}
-                    {{ with .Site.Params.members.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
-                    {{ with .Site.Params.members.subtitle }}<p>{{ . }}</p>{{ end }}
+                    {{ with .Site.Params.memberResources.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.memberResources.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.memberResources.subtitle }}<p>{{ . }}</p>{{ end }}
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                     <!-- Filter to show all member resources -->
                     <button class="resourcefiltr-control active" type="button" data-filter="all">All</button>
                     <!-- Filters to show member resources by resourcce type -->
-                    {{$resourceRootDir := .Site.GetPage "/members"}}
+                    {{$resourceRootDir := .Site.GetPage "/resources"}}
                     {{range $resourceRootDir.Sections}}
                     <button class="resourcefiltr-control" type="button" data-filter="{{ .Title }}">{{ .Title }}</button>
                     {{ end }}
@@ -27,7 +27,7 @@
         </div>
         <!--Container containing actual member resources-->
         <div class="row resourcefiltr-container">
-            {{ range where .Site.RegularPages "Type" "members"}}
+            {{ range where .Site.RegularPages "Type" "resources"}}
                 <div class="col-12 col-md-4 filtr-item" data-category="{{.CurrentSection.Title}}">
                     <div class="post-item text-center">
                         <div class="post-title">

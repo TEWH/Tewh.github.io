@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on </title>
+    <link>https://texasewh.org/resources/research/</link>
+    <description>Recent content in Research on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Jun 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://texasewh.org/resources/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Biomedical Research Labs</title>
+      <link>https://texasewh.org/resources/research/researchlabs/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/resources/research/researchlabs/</guid>
+      <description>Biomedical Engineering (BME) Labs Of course, the first place to start looking for biomedical research is the BME department.</description>
+    </item>
+    
+    <item>
+      <title>Emailing Professors for Research</title>
+      <link>https://texasewh.org/resources/research/howtowriteemailtoreasearchers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/resources/research/howtowriteemailtoreasearchers/</guid>
+      <description>Use this template to reach out to professors at UT or any other universities (yes, this actually works!</description>
+    </item>
+    
+    <item>
+      <title>How to Read Research Articles</title>
+      <link>https://texasewh.org/resources/research/readingapaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://texasewh.org/resources/research/readingapaper/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

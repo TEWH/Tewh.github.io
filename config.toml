@@ -49,8 +49,8 @@ url = "contact"
 weight = 4
 
 [[menu.nav]]
-name    = "Member Resources"
-url     = "members"
+name    = "Resources"
+url     = "resources"
 weight  = 3
 
 # Comment out this section when elections are over
@@ -88,11 +88,11 @@ title   = "Projects"
 subtitle= "Check out our past and current projects! You can filter based on each project's launch year!"
 
 # Member Resources Section
-[params.members]
+[params.memberResources]
 enable = true
 topTitle = ""
-title = "Member Resources"
-subtitle = ""
+title = "Resources"
+subtitle = "Below are some resources!"
 
 # Elections Section
 [params.elections]
