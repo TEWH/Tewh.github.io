@@ -75,3 +75,12 @@ officer  :
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
+  
+  - image         : "images/team/alaukik.jpg"
+    name          : Alaukik
+    designation   : Onboarding Advisor
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
