@@ -169,7 +169,7 @@ a:focus, a:hover {
   =============*/
 
 #preloader {
-  background: #022d83;
+  background: #27285C;
   height: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -495,7 +495,7 @@ Backgrounds
 
 .navigation {
   transition: .3s all;
-  background: #022d83;
+  background: #27285C;
 }
 
 .top-bar {
@@ -617,7 +617,7 @@ Backgrounds
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #002060;
+  background: #27285C;
 }
 
 @media (max-width: 480px) {
@@ -1155,7 +1155,7 @@ Backgrounds
 
 .member-resources a {
   font-size: 22px;
-  color: #022d83;
+  color: #27285C;
   transition: all .2s ease-in 0s;
 }
 
@@ -1338,8 +1338,8 @@ Default Pagination
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #022d83;
-  border-top: 1px solid #002060;
+  background-color: #27285C;
+  border-top: 1px solid #27285C;
   padding: 100px 0 80px;
 }
 
@@ -1379,8 +1379,8 @@ Default Pagination
 
 .footer-bottom {
   text-align: center;
-  background-color: #002060;
-  border-top: 1px solid #002060;
+  background-color: #27285C;
+  border-top: 1px solid #27285C;
   padding: 30px 0;
 }
 
